@@ -1,0 +1,39 @@
+.navbarlogin{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    background-color: #343A40;
+    align-items: center;
+}
+
+.nav-logo img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    height: 50%;
+}
+
+.nav-menu-login{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    color: #343A40;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.nav-menu-login li {
+    padding: 3px 15px;
+    cursor: pointer;
+    text-align:right; 
+}
+
+.nav-menu-login li a {
+    text-decoration: none;
+    color: #343A40;
+}
+  
+  

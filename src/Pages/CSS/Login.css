@@ -1,0 +1,38 @@
+.navbarlogin-background{
+    background-image: url('../../Components/Assets/img/fondo_login.png'); 
+    background-size: cover; 
+    padding-top: 3px;
+    background-position: center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+}
+
+/* .navbarlogin-background::before {
+    content: ""; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.10000); 
+} */
+
+.navbarlogin-container{
+    width: 400px;
+    height: 400px;
+    background: white;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbarlogin-content h1{
+    text-align: center;
+}
+
+.navbarlogin-container h1{
+    color:#0A2E78;
+    text-align: center;
+    padding-top: 40px;
+}
